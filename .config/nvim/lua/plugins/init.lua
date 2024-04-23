@@ -13,4 +13,13 @@ return {
       require "configs.lspconfig"
     end,
   },
+    -- Highlight variable
+  {
+    "RRethy/vim-illuminate",
+    event = "BufEnter",
+    opts = require "configs.illuminate",
+    config = function(_, opts)
+      require("illuminate").configure(opts)
+    end,
+  },
 }
