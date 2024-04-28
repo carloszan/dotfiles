@@ -17,4 +17,5 @@ vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 vim.keymap.set('n', '<leader>v', ':vsplit<CR>', {desc = 'Open the file in a vertical split screen'})
 
 -- Make test
-vim.keymap.set('n', '<leader>ta', ':make test<CR>', {desc = 'make test'})
+vim.keymap.set('n', '<leader>ta', ':make! test<CR>', {desc = 'Test suite'})
+vim.keymap.set('n', '<leader>tr', ':make! run<CR>', {desc = 'Run project'})
