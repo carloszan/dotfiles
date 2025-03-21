@@ -24,3 +24,13 @@ then use GNU stow to create symlinks
 ```
 $ stow .
 ```
+
+# Install Mason manually
+
+```
+:Lazy install mason.nvim
+```
+
+# NvChad
+
+- (Install)[https://nvchad.com/docs/quickstart/install]
