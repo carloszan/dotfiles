@@ -33,4 +33,4 @@ $ stow .
 
 # NvChad
 
-- (Install)[https://nvchad.com/docs/quickstart/install]
+- [Install](https://nvchad.com/docs/quickstart/install)
